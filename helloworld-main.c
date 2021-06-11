@@ -1,4 +1,5 @@
 /**
+! 本版本是通过MCC自动生成
   Generated Main Source File
 
   Company:
@@ -69,6 +70,7 @@ void main(void)
 
 while(1)
 {
+// ! 只有以下部分是手动书写，参考datasheet判定使用的pin,请在MCC pin manager中进行相对应的配置
    RB7 = 1;                  // set RC0 pin to logic High &  turn on 
    __delay_ms(1000);  //add delay of 1 second 
    RB7 = 0;                  // set RC0 pin to logic low & turn off
